@@ -1,0 +1,10 @@
+{
+    "extends": "../../tsconfig.json",
+    "compilerOptions": {
+        "declaration": false,
+        "outDir": "../../dist/services/whatsapp-ingress"
+    },
+    "include": [
+        "src/**/*"
+    ]
+}

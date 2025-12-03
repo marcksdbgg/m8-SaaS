@@ -137,3 +137,29 @@ dist
 # Vite logs files
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Infrastructure / GCP
+.terraform/
+*.tfstate
+*.tfstate.backup
+*.tfvars
+.gcloudignore
+key.json
+*.pem
+*.key
+
+# Monorepo / NestJS specific
+**/dist/
+**/node_modules/
+npm-debug.log
+
